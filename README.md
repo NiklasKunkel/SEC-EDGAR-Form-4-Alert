@@ -1,0 +1,2 @@
+# SEC-EDGAR-Form-4-Alert
+Whenever a director or executive in a public company makes a stock purchase, they are required to submit a "Form 4" to the SEC. This Node.js utility runs in the cloud, scanning the SEC EDGAR database. When a Form 4 is found matching a publicly traded company on our watchlist, the XML is parsed, and relevant information extracted. This information is then instantly forwarded via email or text (SMS) to the user.
