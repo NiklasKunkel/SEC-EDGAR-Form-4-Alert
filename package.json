@@ -1,0 +1,20 @@
+{
+	"name": "SEC-Form-4-Alert",
+	"version": "1.0.0",
+	"private": false,
+	"scripts": {
+		   "start": "node app.js"
+	},
+	"dependencies": {
+			"express": "4.13.x",
+			"cfenv": "1.0.x",
+			"body-parser": "*",
+			"cheerio": "*",
+			"request": "*",
+			"nodemailer": "*"
+	},
+	"repository": {},
+	"engines": {
+		   "node": "4.2.x"
+	}
+}
